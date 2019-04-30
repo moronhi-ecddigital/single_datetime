@@ -116,7 +116,7 @@
 
         // If is date & time field.
         if (widgetType === "datetime") {
-          format = hourFormat === "12h" ? "Y-m-d h:i:s A" : "Y-m-d H:i:s";
+          format = hourFormat === "12h" ? "Y-m-d h:i:00 A" : "Y-m-d H:i:00";
           allowTimepicker = true;
 
           // Get minute granularity, and allowed hours.
